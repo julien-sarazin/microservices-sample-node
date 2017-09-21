@@ -1,0 +1,12 @@
+{
+    "uri": "http://localhost:9000",
+    "path": "/registry/subscribe",
+    "options": {
+        "method": "POST",
+        "body": {
+            "realm": "task",
+            "access_token": "goiznfio%znfîouz"
+        },
+        "json": true
+    }
+}

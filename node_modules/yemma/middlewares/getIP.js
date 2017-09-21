@@ -1,0 +1,10 @@
+module.exports = app => app.server.use(getIP);
+
+function getIP(req, res, next) {
+    req.ip = req.headers['x-forwarded-for'] ||
+        req.connection.remoteAddress ||
+        req.socket.remoteAddress ||
+        req.connection.socket.remoteAddress;
+
+    next();
+}

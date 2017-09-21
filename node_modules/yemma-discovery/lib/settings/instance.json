@@ -1,0 +1,12 @@
+{
+    "info": {
+        "method": "POST",
+        "json": true,
+        "body": {
+            "realm": "$REALM",
+            "port": "$PORT",
+            "address": "?HOST",
+            "access_token": "$ACCESS_TOKEN"
+        }
+    }
+}
